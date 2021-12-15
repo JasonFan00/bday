@@ -107,11 +107,11 @@ typewriter.typeString('Dear Staci,')
     .typeString('Any second now...')
     .pauseFor(3500)
     .deleteAll()
-    .pauseFor(1000)
+    .pauseFor(3000)
     .typeString('Any second now...')
     .pauseFor(3500)
     .deleteAll()
-    .pauseFor(1000)
+    .pauseFor(3000)
     .typeString('Any second now...')
     .pauseFor(3500)
     .deleteAll()
@@ -120,4 +120,4 @@ typewriter.typeString('Dear Staci,')
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 169000);
+ }, 163000);
