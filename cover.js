@@ -112,4 +112,4 @@ typewriter.typeString('Dear Staci,')
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 188000);
+ }, 189000);
