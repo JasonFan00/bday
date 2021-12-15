@@ -1,7 +1,7 @@
 var app = document.getElementById('typewriter');
 var typewriter = new Typewriter(app, {
     loop: false,
-    delay: 34
+    delay: 31
 });
 
 typewriter.typeString('Dear Staci,')
@@ -36,11 +36,7 @@ typewriter.typeString('Dear Staci,')
     .pauseFor(599)
     .deleteAll()
 .pauseFor(500)
-    .typeString('You\'ve impacted me, and many others, in so many ways')
-    .pauseFor(599)
-    .deleteAll()
-.pauseFor(500)
-    .typeString('One thing was realizing there\'s so many more dimensions to life')
+    .typeString('You helped me realize there\'s so many more dimensions to life')
     .pauseFor(599)
     .deleteAll()
 .pauseFor(500)
@@ -112,4 +108,4 @@ typewriter.typeString('Dear Staci,')
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 189000);
+ }, 187000);
