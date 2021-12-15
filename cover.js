@@ -121,6 +121,7 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .start();
 
+    
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
  }, 157000);
