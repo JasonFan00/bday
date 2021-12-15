@@ -1,7 +1,7 @@
 var app = document.getElementById('typewriter');
 var typewriter = new Typewriter(app, {
     loop: false,
-    delay: 40
+    delay: 34
 });
 
 typewriter.typeString('Dear Staci,')
@@ -10,6 +10,10 @@ typewriter.typeString('Dear Staci,')
 .pauseFor(500)
     .typeString('I hope you have a great birthday!')
     .pauseFor(599)
+    .deleteAll()
+.pauseFor(500)
+.typeString('This is a little rough but watch until the end!')
+    .pauseFor(699)
     .deleteAll()
 .pauseFor(500)
     .typeString('I often think how life put us and Lesbia in 21a together')
@@ -81,7 +85,7 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .pauseFor(500)
     .typeString('\"We didn\'t realize we were making memories, we were just having fun\" :(')
-    .pauseFor(599)
+    .pauseFor(700)
     .deleteAll()
     .pauseFor(500)
     .typeString('I really can\'t put it all into words, but you get the point!')
