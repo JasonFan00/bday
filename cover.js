@@ -105,9 +105,11 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .pauseFor(500)
     .typeString('Anyways, enjoy the fireworks!')
+    .pauseFor(500)
+    .deleteAll()
     .start();
 
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 185000);
+ }, 188000);
