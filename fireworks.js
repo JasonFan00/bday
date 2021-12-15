@@ -143,7 +143,7 @@ function Controller() {
 		}
 		minVy = vy / 2;
 		deltaVy = vy - minVy;
-		vx = (1 / 4) * screenWidth / (vy / 2);
+		var vx = (1 / 4) * screenWidth / (vy / 2);
 		minVx = -vx;
 		deltaVx = 2*vx;
 	};
