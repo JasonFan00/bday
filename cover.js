@@ -48,6 +48,10 @@ typewriter.typeString('Dear Staci,')
     .pauseFor(599)
     .deleteAll()
 .pauseFor(500)
+    .typeString('And you showed me what it is to REALLY have a friend')
+    .pauseFor(599)
+    .deleteAll()
+.pauseFor(500)
     .typeString('Friends to share lighthearted laughs and the deepest convos :D')
     .pauseFor(599)
     .deleteAll()
@@ -85,9 +89,9 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .pauseFor(500)
     .typeString('\"We didn\'t realize we were making memories, we were just having fun\" :(')
-    .pauseFor(700)
+    .pauseFor(1200)
     .deleteAll()
-    .pauseFor(500)
+    .pauseFor(900)
     .typeString('I really can\'t put it all into words, but you get the point!')
     .pauseFor(599)
     .deleteAll()
@@ -106,4 +110,4 @@ typewriter.typeString('Dear Staci,')
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 190000);
+ }, 180000);
