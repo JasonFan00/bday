@@ -91,10 +91,6 @@ typewriter.typeString('Dear Staci,')
     .typeString('\"We didn\'t realize we were making memories, we were just having fun\" :(')
     .pauseFor(3000)
     .deleteAll()
-    .pauseFor(900)
-    .typeString('I really can\'t put it all into words, but you get the point!')
-    .pauseFor(599)
-    .deleteAll()
     .pauseFor(500)
     .typeString('But there are many years in the future for more memories.  I\'m super excited!')
     .pauseFor(599)
@@ -121,7 +117,7 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .start();
 
-    
+
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 157000);
+ }, 158000);
