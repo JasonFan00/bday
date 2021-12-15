@@ -103,6 +103,10 @@ typewriter.typeString('Dear Staci,')
     .typeString('Anyways, enjoy the fireworks!')
     .pauseFor(500)
     .deleteAll()
+    .pauseFor(4000)
+    .typeString('Any second now...')
+    .pauseFor(3000)
+    .deleteAll()
     .start();
 
 
