@@ -96,7 +96,7 @@ typewriter.typeString('Dear Staci,')
     .pauseFor(599)
     .deleteAll()
     .pauseFor(500)
-    .typeString('But we have many, many years in the future for adventures')
+    .typeString('But we have many, many years in the future for memories')
     .pauseFor(599)
     .deleteAll()
     .pauseFor(500)
@@ -110,4 +110,4 @@ typewriter.typeString('Dear Staci,')
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 180000);
+ }, 185000);
