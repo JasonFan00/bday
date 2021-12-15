@@ -81,7 +81,6 @@ body {
   font-weight: 100;
   transform: translateY(85px);
   padding: 1rem 0;
-  background-color: #0d1117;
   -webkit-animation: showUp 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
           animation: showUp 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
@@ -97,7 +96,6 @@ body {
   font-size: 5.5rem;
   color: white;
   transform: translateY(-85px);
-  background-color: #0d1117;
   padding: 1rem 0;
   -webkit-animation: showDown 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 0.4s;
           animation: showDown 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 0.4s;
@@ -162,6 +160,8 @@ body {
   stroke-width: 4px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000;
+  display: block;
+  margin: auto;
 }
 
 @-webkit-keyframes showUp {
