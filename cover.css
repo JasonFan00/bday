@@ -1,1 +1,40 @@
 #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #000; z-index:9999;}
+
+.outer-container {
+	height: 80vmin;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.container {
+	display: inline-block;
+}
+
+.typed-out {
+	overflow: hidden;
+	font-size: 1.75rem;
+	border-right: 0.15em solid orange;
+	white-space: nowrap;
+	animation: typing 2s steps(30, end) forwards, blink 0.8s infinite;
+	width: 0;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	from {
+		border-color: transparent;
+	}
+	to {
+		border-color: orange;
+	}
+}
