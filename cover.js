@@ -105,11 +105,19 @@ typewriter.typeString('Dear Staci,')
     .deleteAll()
     .pauseFor(4000)
     .typeString('Any second now...')
-    .pauseFor(3000)
+    .pauseFor(3500)
+    .deleteAll()
+    .pauseFor(1000)
+    .typeString('Any second now...')
+    .pauseFor(3500)
+    .deleteAll()
+    .pauseFor(1000)
+    .typeString('Any second now...')
+    .pauseFor(3500)
     .deleteAll()
     .start();
 
 
 setTimeout(() => {
     document.getElementById("cover").style.display = "none"
- }, 177000);
+ }, 168000);
